@@ -1,31 +1,32 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const style: React.CSSProperties = {
     color: "blue",
   };
-  
-  return <div style={style} className="flex flex-col h-16 shadow bg-white">
-  <div className="grid grid-cols-2">
-    <div className="flex flex-row text-xl justify-around">
-      <div className="">Logo</div>
-      <div className="">About Us</div>
-      <div className="">Our Work</div>
-      <div className="">Ebooks</div>
-      <div className="">Blog</div>
-      <div className="">Technology Comparison</div>
-      <div className="">How it Works</div>
+
+  return <div style={style} className="flex flex-col h-20 shadow bg-white">
+    <div className="grid grid-cols-2 p-1">
+      <div className="flex flex-row text-xl justify-around p-1">
+        <Link to='/'><div className="font-semibold text-[#EF5366]">SkyScraper</div></Link>
+        <Link to='/about'><div className="text-black hover:text-[#EF5366] text-[16px] cursor-pointer">About Us</div></Link>
+        <Link to='/service'><div className="text-black hover:text-[#EF5366] text-[16px] cursor-pointer">Our Service</div></Link>
+        <Link to='/blog'><div className="text-black hover:text-[#EF5366] text-[16px] cursor-pointer">Blog</div></Link>
+        <Link to='/career'><div className="text-black hover:text-[#EF5366] text-[16px] cursor-pointer">Career</div></Link>
+        <Link to='/technology'><div className="text-black hover:text-[#EF5366] text-[16px] cursor-pointer">Technology</div></Link>
+      </div>
+      <div className="flex justify-end p-1">
+        <Link to='/contact'><div className="flex text-center p-1 rounded-md font-[600px] justify-center bg-[#EF5366] w-36 text-white">
+          Contact Us
+        </div></Link></div>
     </div>
-    <div className="flex text-center p-1 rounded justify-center bg-red-400 w-36 text-white">
-      Contact Us
+    <div className="flex flex-row justify-around">
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Product Engineering</div>
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Cloud/Devops Engineering</div>
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Data Engineering</div>
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Quality Engineering</div>
     </div>
-  </div>
-  <div className="flex flex-row justify-around">
-    <div className="">Product Engineering</div>
-    <div className="">Cloud/Devops Engineering</div>
-    <div className="">Data Engineering</div>
-    <div className="">Quality Engineering</div>
-  </div>
   </div>;
 };
 
