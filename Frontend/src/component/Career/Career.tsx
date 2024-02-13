@@ -19,19 +19,16 @@ const Career = () => {
         <div className="text-[32px] font-[700] font-[CircularStd] text-center justify-center">Learn Engineering Environment</div>
         <div className="flex flex-row gap-4">
           <div className="bg-white flex flex-col rounded-md shadow">
-            <div className="text-[22px] font-[500] font-[CircularStd]">Latest engineering best practices</div>
-            <div className="text-[22px] font-[500] font-[CircularStd]">At Simform we have a passiong for good engineering, and it reflects on
-              the client we work with and the team we pick.</div>
+            <div className="text-[18px] font-[600] font-[Graphik]">Latest engineering best practices</div>
+            <div className="text-[18px] font-[500] font-[Graphik]">At Simform we have a passion for good engineering, and it reflects on the client we work with and the team we pick.</div>
           </div>
           <div className="bg-white flex flex-col rounded-md shadow">
-            <div className="text-[22px] font-[500] font-[CircularStd]">Latest engineering best practices</div>
-            <div className="text-[22px] font-[500] font-[CircularStd]">At Simform we have a passiong for good engineering, and it reflects on
-              the client we work with and the team we pick.</div>
+            <div className="text-[18px] font-[600] font-[Graphik]">Tech horizontals agnostic</div>
+            <div className="text-[18px] font-[500] font-[Graphik]">We are not focused on technology horizontals. Rather, we emphasize building scalable and robust software with advanced engineering.</div>
           </div>
           <div className="bg-white flex flex-col rounded-md shadow">
-            <div className="text-[22px] font-[500] font-[CircularStd]">Latest engineering best practices</div>
-            <div className="text-[22px] font-[500] font-[CircularStd]">At Simform we have a passiong for good engineering, and it reflects on
-              the client we work with and the team we pick.</div>
+            <div className="text-[18px] font-[600] font-[Graphik]">Agile and flexible teams</div>
+            <div className="text-[18px] font-[500] font-[Graphik]">We build a very agile team for client's projects. So teams are lean enough to rapidly learn and adapt to newer technologies and practices.</div>
           </div>
         </div>
         <div className="flex flex-col bg-gray-600 text-white rounded-md gap-2 m-4">
@@ -47,61 +44,44 @@ const Career = () => {
           <div className="text-[24px] font-[CircularStd]">3.Ample learning opportubities</div>
           <div className="text-[24px] font-[CircularStd]">4.Well-defined career path</div>
         </div>
-        <div className="font-[600] text-center justify-center text-[24px]">Benefits</div>
-        <div className="flex flex-row gap-2">
+        <div className="font-[600] text-center justify-center text-[32px] font-[CircularStd]">Benefits</div>
+        <div className="grid grid-cols-3 gap-2">
           <div className="flex flex-col bg-white rounded-md p-1 gap-1  shadow">
-            <div className="">Flexible timing,leaves benefits for life events</div>
-            <div className="">Flexible timing and work hours.Wedding,Parenthood,Bereavement leaves.10-12 holidays,10 Casual leaves, 8 emergency leaves.</div>
+            <div className="text-[20px] font-[600] font-[CircularStd]">Flexible timing,leaves benefits for life events</div>
+            <div className="text-[20px] font-[500] font-[CircularStd]">Flexible timing and work hours.Wedding,Parenthood,Bereavement leaves.10-12 holidays,10 Casual leaves, 8 emergency leaves.</div>
           </div>
           <div className="flex flex-col bg-white rounded-md p-1 gap-1  shadow">
-            <div className="">Flexible timing,leaves benefits for life events</div>
-            <div className="">Flexible timing and work hours.Wedding,Parenthood,Bereavement leaves.10-12 holidays,10 Casual leaves, 8 emergency leaves.</div>
+            <div className="text-[20px] font-[600] font-[CircularStd]">Great recreational facilities</div>
+            <div className="text-[20px] font-[500] font-[CircularStd]">Game lounge featuring pool table, table tennis, Foosball, Gaming consoles and more.</div>
           </div>
           <div className="flex flex-col bg-white rounded-md p-1 gap-1  shadow">
-            <div className="">Flexible timing,leaves benefits for life events</div>
-            <div className="">Flexible timing and work hours.Wedding,Parenthood,Bereavement leaves.10-12 holidays,10 Casual leaves, 8 emergency leaves.</div>
+            <div className="text-[20px] font-[600] font-[CircularStd]">Free Health insurance</div>
+            <div className="text-[20px] font-[500] font-[CircularStd]">Free 5Lac family coverage with zero co-pay, no room rent cap, pre-existing disease covered from day one and the maternity cover.</div>
+          </div>
+          <div className="flex flex-col bg-white rounded-md p-1 gap-1  shadow">
+            <div className="text-[20px] font-[600] font-[CircularStd]">Free snacks and highly affordable homely lunch</div>
+            <div className="text-[20px] font-[500] font-[CircularStd]">Free snack in the evening. Healthy and hygienic lunch service at ₹400/month.</div>
+          </div>
+          <div className="flex flex-col bg-white rounded-md p-1 gap-1  shadow">
+            <div className="text-[20px] font-[600] font-[CircularStd]">Sponsorship for certifications/events, Library service</div>
+            <div className="text-[20px] font-[500] font-[CircularStd]">Sponsorship for certification preparation, attending some events etc. Online courses subscriptions and physical library.</div>
+          </div>
+          <div className="flex flex-col bg-white rounded-md p-1 gap-1  shadow">
+            <div className="text-[20px] font-[600] font-[CircularStd]">Work from home</div>
+            <div className="text-[20px] font-[500] font-[CircularStd]">25 day of work from home after completing one year into the company.</div>
           </div>
         </div>
         <div className="flex text-center justify-center rounded-md shadow flex-col bg-white p-2 m-2">
           <div className="text-[22px] font-[700] font-[CircularStd]">Are you looking for a Job change?</div>
           <div className="text-[22px] font-[500] font-[CircularStd]">We are hiring, nah we are growing our family..Lets work together.</div>
-          <div className="flex text-center justify-center"><div className="text-[19px] text-white bg-[#EF5366] p-1 rounded-md font-semibold pl-4 pr-4">CHECK OPENINGS AND APPLY</div></div>
+          <div className="flex text-center justify-center"><div className="text-[19px] text-white bg-[#EF5366] p-1 rounded-md font-semibold pl-4 pr-4 font-[CircularStd]">CHECK OPENINGS AND APPLY</div></div>
         </div>
-        <div className="text-xl text-center justify-center font-semibold">Team Values</div>
-        <div className="flex flex-row justify-around">
-          <div className="bg-white rounded-md p-1 shadow-md">
-            <div className=""></div>
-            <div className="">Ownership over authority</div>
-          </div>
-          <div className="bg-white rounded-md p-1 shadow-md">
-            <div className=""></div>
-            <div className="">Collaborative Learning</div>
-          </div>
-          <div className="bg-white rounded-md p-1 shadow-md">
-            <div className=""></div>
-            <div className="">Everyone Matters</div>
-          </div>
-        </div>
-        <div className="text-xl font-semibold text-center justify-center">Numbers</div>
-        <div className="flex flex-row justify-around">
-          <div className="flex flex-col shadow bg-white rounded-md p-2">
-            <div className="text-xl font-semibold">26</div>
-            <div className="text-red-500 text-xl">Average Age of Team Member</div>
-          </div>
-          <div className="flex flex-col shadow bg-white rounded-md p-2">
-            <div className="text-xl font-semibold">26</div>
-            <div className="text-red-500 text-xl">Average Age of Team Member</div>
-          </div>
-          <div className="flex flex-col shadow bg-white rounded-md p-2">
-            <div className="text-xl font-semibold">26</div>
-            <div className="text-red-500 text-xl">Average Age of Team Member</div>
-          </div>
-        </div>
-        <div className="rounded-md m-5 bg-blue-500 flex flex-col gap-2 p-2">
-          <div className="text-white font-semibold text-[22px]">Your passion begins here..!!</div>
-          <div className="text-white font-semibold text-[22px]">Explore numerous job</div>
-          <div className="text-white font-semibold text-[22px]">opportunities</div>
-          <div className="w-[400px] rounded-lg h-10 font-semibold text-[22px] p-1 bg-white border-2 border-white text-blue-600">CHECK OPENINGS AND APPLY</div>
+       
+          <div className="rounded-md m-5 bg-blue-500 flex flex-col gap-2 p-2">
+          <div className="text-white font-semibold text-[22px] font-[CircularStd]">Your passion begins here..!!</div>
+          <div className="text-white font-semibold text-[22px] font-[CircularStd]">Explore numerous job</div>
+          <div className="text-white font-semibold text-[22px] font-[CircularStd]">opportunities</div>
+          <div className="w-[400px] rounded-lg h-10 font-semibold text-[22px] p-1 bg-white border-2 border-white text-blue-600 font-[CircularStd]">CHECK OPENINGS AND APPLY</div>
         </div>
       </div>
       <Footer />

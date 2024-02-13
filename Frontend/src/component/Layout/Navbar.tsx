@@ -22,10 +22,10 @@ const Navbar = () => {
         </div></Link></div>
     </div>
     <div className="flex flex-row justify-around">
-      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Product Engineering</div>
-      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Cloud/Devops Engineering</div>
-      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Data Engineering</div>
-      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Quality Engineering</div>
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Web Application Development</div>
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Mobile Application Development</div>
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Digital Marketing</div>
+      <div className="text-black font-[600] hover:text-[#EF5366] text-[16px] cursor-pointer">Other Works</div>
     </div>
   </div>;
 };

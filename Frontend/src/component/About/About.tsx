@@ -21,6 +21,26 @@ const About = () => {
         <div className="text-[36px] font-[700] font-[CircularStd]">Choose Your Own Grow Path</div>
         <div className="flex justify-center"><div className="text-[19px] rounded text-white bg-[#EF5366] p-1 w-60 justify-center text-center">Explore Our Opening</div></div>
       </div>
+      <div className="font-[600] text-[36px] text-center justify-center">Unleash Your Potential</div>
+        <div className="flex flex-col">
+        <div className="flex flex-col w-[400px]">
+          <div className="font-[500] text-[30px]">Health Benefits</div>
+          <div className="text-[24px] font-[Graphik]">We work best when the people we care are healthy. Our health program empowers you to be worry-free.</div>
+        </div>
+        <div className="flex flex-col w-[400px]">
+          <div className="font-[500] text-[30px]">Mentorship and Learning</div>
+          <div className="text-[24px] font-[Graphik]">Never stop learning by getting an online or in-person mentoring on ANY topic you want to grow in.</div>
+        </div>
+        <div className="flex flex-col w-[400px]">
+          <div className="font-[500] text-[30px]">Flexibility to work</div>
+          <div className="text-[24px] font-[Graphik]">Stay inspired to work however and whatever technologies you find your best productive self in.</div>
+        </div>
+        <div className="flex flex-col w-[400px]">
+          <div className="font-[500] text-[30px]">Level up career</div>
+          <div className="text-[24px] font-[Graphik]">Work with internationally recognized clients and take ownership of how you work to build things.</div>
+        </div>
+        </div>
+     
       {/* Section 3 */}
       <div className="flex text-center justify-center"><div className="text-[19px] text-[#EF5366] w-60 border-2 border-[#EF5366]">Explore Our Opening</div></div>
         <Footer/>
