@@ -4,8 +4,6 @@ import { useState } from "react"
 import { FcMultipleDevices } from "react-icons/fc";
 import { PiAddressBookDuotone } from "react-icons/pi";
 
-
-
 const Technology = () => {
   const [tech,setTech]=useState('Social Media')
   return (
