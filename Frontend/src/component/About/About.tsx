@@ -25,10 +25,11 @@ const About = () => {
         <div className="font-[Graphik] text-[22px] text-center justify-center">Our Product Innovation Center transforms your engineering from being bottlenecks to growth drivers. We help you to identify and solve critical business challenges with proven technology practices such as DevOps, cloud-native development, and quality engineering services. Our remote agile teams of engineers immerse themselves in your project, maintaining your company culture and working in line with your strategic goals.</div>
       </div>
       {/* Section: 2 */}
-      <div className="flex flex-row">
-        <div className="flex flex-col text-center justify-center p-2">
-          <div className="text-[36px] font-[700] font-[CircularStd]">Choose Your Own Grow Path</div>
-          <div className="flex justify-center"><div className="text-[19px] rounded text-white bg-[#EF5366] p-1 w-60 justify-center text-center">Explore Our Opening</div></div>
+      <div className="flex flex-row bg-white">
+        <div className="flex flex-col text-center justify-center p-2 ml-20">
+          <div className="text-[40px] font-[700] font-[CircularStd] text-left">Choose Your Own</div>
+          <div className="text-[40px] font-[700] font-[CircularStd] text-left">Grow Path</div>
+          <div className="flex justify-center"><div className="text-[19px] rounded text-white bg-[#EF5366] p-2 w-60 justify-center text-center">Explore Our Opening</div></div>
         </div>
         <div className="flex justify-end flex-grow"><img src={four} alt="logo" className="h-[260px]" /></div>
       </div>
