@@ -3,23 +3,24 @@ import Navbar from "../Layout/Navbar"
 import { useState } from "react"
 import { FcMultipleDevices } from "react-icons/fc";
 import { PiAddressBookDuotone } from "react-icons/pi";
+import { useNavigate } from "react-router-dom";
 
 const Technology = () => {
   const [tech,setTech]=useState('Social Media')
+  const navigate=useNavigate();
   return (
     <div className="bg-[#FAFBFF]">
       <Navbar/>
       <div className="text-[40px] text-center justify-center font-[CircularStd]">Simple -- Blog -- Technology Comparison</div>
       <div className="flex flex-row">
       <div className="flex flex-row">
-      <div className="text-xl text-red-600 bg-white">Select Category :</div>
+      <div className="text-xl text-[#2D5BFF] bg-white">Select Category :</div>
       <select value={tech} onChange={(e)=>{setTech(e.target.value)}} className="bg-[#EFEFEF] outline-0 border-[1px]">
         <option value="">Digital Marketing</option>
         <option value="">Social Media</option>
         <option value="">You Tube Maintenance</option>
       </select>
       </div>
-      <div className="flex justify-end flex-grow"><div className="bg-[#EF5366] text-white mr-4 p-1 text-center  w-44 rounded-md">Explore Our Blog</div></div>
       </div>
       <div className="text-[28px] font-[600] font-[CircularStd] ml-4">List of Blog</div>
       <div className="flex flex-col ml-4">
@@ -37,6 +38,7 @@ const Technology = () => {
         <div className="text-[20px] flex flex-row">13.<FcMultipleDevices/>Django</div>
 
       </div>
+      <div className="flex justify-center m-5"><div className="bg-[#2D5BFF] text-white mr-4 p-1 text-center  w-44 rounded-md" onClick={()=>{navigate('/blog')}}>Explore Our Blog</div></div>
       <Footer/>
     </div>
   )
